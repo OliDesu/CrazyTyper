@@ -39,7 +39,7 @@ public class Board extends JPanel {
         Ellipse2D e = new Ellipse2D.Double(0, 0, 80, 130);
         g2d.setStroke(new BasicStroke(1));
         g2d.setColor(Color.gray);
-
+//Let's try to change this
         for (double deg = 0; deg < 360; deg += 5) {
             AffineTransform at
                     = AffineTransform.getTranslateInstance(w/2, h/2);
